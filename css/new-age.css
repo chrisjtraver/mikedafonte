@@ -12,7 +12,6 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
 
 /*CUSTOM STYLES*/
-
 @media (max-width: 992px) {
   .profile-img-lg {
       display: none;
@@ -24,13 +23,24 @@ body {
   }
 }
 
+.submit-button {
+  background: transparent;
+}
+
+.submit-button:hover {
+  background-color: #fdcc52;
+  cursor: pointer;
+}
+
+/*----------------------------*/
+
 a {
-  color: #fdcc52;
+  color: #edd151;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #c6ad3b; }
 
 hr {
   max-width: 100px;

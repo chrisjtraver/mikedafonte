@@ -32,6 +32,10 @@ body {
   cursor: pointer;
 }
 
+.background-blue {
+  background-color: rgba(11, 45, 141, 0.9)
+}
+
 /*----------------------------*/
 
 a {
